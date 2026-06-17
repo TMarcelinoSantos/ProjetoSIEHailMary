@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "63fa6140-af09-4f49-add6-cdd2f16bc69d",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781713859231,
+  "lastUpdate" : 1781716119113,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -392,7 +392,7 @@
                           "value" : "left"
                         }
                       },
-                      "reference" : "6005921c-c036-43e5-b3db-903f7b2be8b1",
+                      "reference" : "ca31faa9-d57c-4312-9aff-3045df04b999",
                       "hasValidationError" : false,
                       "id" : "pbTitle"
                     }
@@ -408,7 +408,8 @@
                       },
                       "propertyValues" : {
                         "cssClasses" : {
-                          "type" : "expression"
+                          "type" : "constant",
+                          "value" : ""
                         },
                         "hidden" : {
                           "type" : "constant",
@@ -454,15 +455,14 @@
                           ]
                         },
                         "displayedKey" : {
-                          "type" : "constant",
-                          "value" : ""
+                          "type" : "constant"
                         },
                         "returnedKey" : {
                           "type" : "constant"
                         },
                         "selectedValue" : {
                           "type" : "variable",
-                          "value" : ""
+                          "value" : "tipo_processo"
                         }
                       },
                       "reference" : "fc3624d1-2c4f-4d70-80d0-d58635834991",
@@ -619,6 +619,14 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
                   }
                 },
                 "reference" : "8db10715-e717-4db0-96f0-9d232a72b87b",
@@ -668,6 +676,13 @@
         "return {",
         "\tanomaliaInput: $data.formInput.anomaliaInput",
         "}"
+      ],
+      "exposed" : false
+    },
+    "tipo_processo" : {
+      "type" : "constant",
+      "value" : [
+        "Melhoria"
       ],
       "exposed" : false
     }
