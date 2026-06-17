@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "ca71e6fe-8c07-41c2-bdac-7a9e5b9e9212",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781719307848,
+  "lastUpdate" : 1781720991192,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -166,7 +166,8 @@
                           "type" : "constant"
                         },
                         "selectedValue" : {
-                          "type" : "variable"
+                          "type" : "variable",
+                          "value" : "anomalia.clienteConcorda"
                         }
                       },
                       "reference" : "8a1e1915-3814-4a8e-8820-4129de7f73b8",

@@ -132,7 +132,7 @@ public class AnomaliaDAOImpl
         }
     }
 
-    public List<com.company.model.Anomalia> findByClienteConcorda(Boolean clienteConcorda, int startIndex, int maxResults) {
+    public List<com.company.model.Anomalia> findByClienteConcorda(String clienteConcorda, int startIndex, int maxResults) {
         try {
             CommandAPI commandApi = org.bonitasoft.engine.api.TenantAPIAccessor.getCommandAPI(session);
             Map<String, Serializable> commandParameters = new HashMap<String, Serializable>();
@@ -247,7 +247,7 @@ public class AnomaliaDAOImpl
         }
     }
 
-    public Long countForFindByClienteConcorda(Boolean clienteConcorda) {
+    public Long countForFindByClienteConcorda(String clienteConcorda) {
         try {
             CommandAPI commandApi = org.bonitasoft.engine.api.TenantAPIAccessor.getCommandAPI(session);
             Map<String, Serializable> commandParameters = new HashMap<String, Serializable>();

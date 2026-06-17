@@ -8,7 +8,7 @@
                 <field type="STRING" length="255" name="tipoDeProcesso" nullable="false" collection="false"/>
                 <field type="BOOLEAN" length="255" name="querCancelar" nullable="true" collection="false"/>
                 <field type="INTEGER" length="255" name="idProcesso" nullable="false" collection="false"/>
-                <field type="BOOLEAN" length="255" name="clienteConcorda" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="clienteConcorda" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

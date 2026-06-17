@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "63fa6140-af09-4f49-add6-cdd2f16bc69d",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781718109872,
+  "lastUpdate" : 1781720599628,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -246,7 +246,7 @@
                           "type" : "constant",
                           "value" : [
                             "Sem resposta",
-                            "Tempo de Execução excedido"
+                            "Tempo de execução excedido"
                           ]
                         },
                         "displayedKey" : {
@@ -462,7 +462,7 @@
                         },
                         "selectedValue" : {
                           "type" : "variable",
-                          "value" : "tipo_processo"
+                          "value" : "formInput.anomaliaInput.tipoDeProcesso"
                         }
                       },
                       "reference" : "fc3624d1-2c4f-4d70-80d0-d58635834991",
