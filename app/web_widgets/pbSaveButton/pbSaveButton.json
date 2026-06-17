@@ -4,7 +4,7 @@
   "type" : "widget",
   "custom" : false,
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781453202024,
+  "lastUpdate" : 1781710616457,
   "description" : "Save data to / Load data from LocalStorage.",
   "template" : "@pbSaveButton.tpl.html",
   "controller" : "@pbSaveButton.ctrl.js",

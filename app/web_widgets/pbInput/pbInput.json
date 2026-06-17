@@ -4,7 +4,7 @@
   "type" : "widget",
   "custom" : false,
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781453201600,
+  "lastUpdate" : 1781710616215,
   "description" : "Field where the user can enter information",
   "template" : "@pbInput.tpl.html",
   "controller" : "@pbInput.ctrl.js",

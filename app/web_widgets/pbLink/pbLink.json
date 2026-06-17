@@ -4,7 +4,7 @@
   "type" : "widget",
   "custom" : false,
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781453201605,
+  "lastUpdate" : 1781710616422,
   "description" : "Navigation link to another page or form",
   "template" : "@pbLink.tpl.html",
   "controller" : "@pbLink.ctrl.js",

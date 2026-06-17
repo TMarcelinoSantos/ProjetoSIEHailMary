@@ -4,7 +4,7 @@
   "type" : "widget",
   "custom" : false,
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781453201597,
+  "lastUpdate" : 1781710616391,
   "description" : "Display an image from assets or from a URL",
   "template" : "@pbImage.tpl.html",
   "properties" : [

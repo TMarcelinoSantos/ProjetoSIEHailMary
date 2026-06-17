@@ -4,7 +4,7 @@
   "type" : "widget",
   "custom" : false,
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781453202156,
+  "lastUpdate" : 1781710616469,
   "description" : "Short string or paragraph of text to be displayed. Can include HTML tags",
   "template" : "@pbText.tpl.html",
   "properties" : [
