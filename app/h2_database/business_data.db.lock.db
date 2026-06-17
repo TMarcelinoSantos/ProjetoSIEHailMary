@@ -1,0 +1,6 @@
+#FileLock
+#Wed Jun 17 15:18:15 WEST 2026
+hostName=LOQ-TMS
+id=19ed5f26d0bbf6cbda91c4bb42c844bc42c60df79de
+method=file
+server=172.22.216.46\:57263
