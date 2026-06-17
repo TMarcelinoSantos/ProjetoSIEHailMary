@@ -10,7 +10,7 @@
       "groupId" : "org.bonitasoft.connectors",
       "artifactId" : "bonita-connector-email",
       "version" : "1.5.0",
-      "file" : "/home/futurecat/.m2/repository/org/bonitasoft/connectors/bonita-connector-email/1.5.0/bonita-connector-email-1.5.0.jar"
+      "file" : "/home/andre-lopes/.m2/repository/org/bonitasoft/connectors/bonita-connector-email/1.5.0/bonita-connector-email-1.5.0.jar"
     },
     "jarEntry" : "email.impl"
   } ],
@@ -22,7 +22,7 @@
       "groupId" : "org.bonitasoft.connectors",
       "artifactId" : "bonita-connector-email",
       "version" : "1.5.0",
-      "file" : "/home/futurecat/.m2/repository/org/bonitasoft/connectors/bonita-connector-email/1.5.0/bonita-connector-email-1.5.0.jar"
+      "file" : "/home/andre-lopes/.m2/repository/org/bonitasoft/connectors/bonita-connector-email/1.5.0/bonita-connector-email-1.5.0.jar"
     },
     "jarEntry" : "email.def"
   } ],
@@ -42,7 +42,7 @@
       "artifactId" : "bonita-admin-application",
       "version" : "10.4.0",
       "classifier" : "application",
-      "file" : "/home/futurecat/.m2/repository/org/bonitasoft/web/application/bonita-admin-application/10.4.0/bonita-admin-application-10.4.0-application.zip"
+      "file" : "/home/andre-lopes/.m2/repository/org/bonitasoft/web/application/bonita-admin-application/10.4.0/bonita-admin-application-10.4.0-application.zip"
     }
   } ],
   "issues" : [ ]
