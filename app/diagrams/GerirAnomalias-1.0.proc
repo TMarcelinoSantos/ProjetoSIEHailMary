@@ -602,15 +602,15 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_xnVgsmgREfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_xnVgsWgREfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_xnVgs2gREfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_pXbqkmgSEfGYLKV1GOYq0A">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_pXbqk2gSEfGYLKV1GOYq0A" name="anomalia" content="anomalia" type="TYPE_VARIABLE" returnType="com.company.model.Anomalia">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_pXbqlGgSEfGYLKV1GOYq0A" name="anomalia" dataType="_rtCqhGgCEfGYLKV1GOYq0A" className="com.company.model.Anomalia"/>
+          <operations xmi:type="expression:Operation" xmi:id="_2oeyQGp1EfGoud6XkLVVDA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_2oeyQWp1EfGoud6XkLVVDA" name="anomalia" content="anomalia" type="TYPE_VARIABLE" returnType="com.company.model.Anomalia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_2oeyQmp1EfGoud6XkLVVDA" name="anomalia" dataType="_rtCqhGgCEfGYLKV1GOYq0A" className="com.company.model.Anomalia"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_pXbqlWgSEfGYLKV1GOYq0A" name="anomaliaInput.clienteConcorda" content="anomaliaInput?.clienteConcorda" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_pXbqlmgSEfGYLKV1GOYq0A" name="anomaliaInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_2oeyQ2p1EfGoud6XkLVVDA" name="anomaliaInput.clienteConcorda" content="anomaliaInput?.clienteConcorda" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_2oeyRGp1EfGoud6XkLVVDA" name="anomaliaInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_pXbql2gSEfGYLKV1GOYq0A" type="JAVA_METHOD" expression="setClienteConcorda">
-              <inputTypes>java.lang.Boolean</inputTypes>
+            <operator xmi:type="expression:Operator" xmi:id="_2oeyRWp1EfGoud6XkLVVDA" type="JAVA_METHOD" expression="setClienteConcorda">
+              <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_xnVgtGgREfGYLKV1GOYq0A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -625,8 +625,8 @@
             <targetForm xmi:type="expression:Expression" xmi:id="_qMRfUGpsEfGbXui-ngO0Bw" name="clienteConcorda" content="ca71e6fe-8c07-41c2-bdac-7a9e5b9e9212" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_2vJICWgREfGYLKV1GOYq0A">
-            <inputs xmi:type="process:ContractInput" xmi:id="_pXbqkGgSEfGYLKV1GOYq0A" name="anomaliaInput" type="COMPLEX" dataReference="anomalia" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_pXbqkWgSEfGYLKV1GOYq0A" name="clienteConcorda" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_2oeLMGp1EfGoud6XkLVVDA" name="anomaliaInput" type="COMPLEX" dataReference="anomalia" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_2oeLMWp1EfGoud6XkLVVDA" name="clienteConcorda" createMode="false"/>
             </inputs>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_2vJIDGgREfGYLKV1GOYq0A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -744,9 +744,6 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_qR2WV2gQEfGYLKV1GOYq0A" name="initAnomalia()" content="def anomaliaVar = new com.company.model.Anomalia()&#xD;&#xA;anomaliaVar.email = anomaliaInput?.email&#xD;&#xA;anomaliaVar.tipoDeAnomalia = anomaliaInput?.tipoDeAnomalia&#xD;&#xA;anomaliaVar.tipoDeProcesso = anomaliaInput?.tipoDeProcesso&#xD;&#xA;anomaliaVar.idProcesso = anomaliaInput?.idProcesso&#xD;&#xA;return anomaliaVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Anomalia">
           <referencedElements xmi:type="process:ContractInput" xmi:id="_qR2WWGgQEfGYLKV1GOYq0A" name="anomaliaInput" type="COMPLEX"/>
         </defaultValue>
-      </data>
-      <data xmi:type="process:Data" xmi:id="_lPqDEGpmEfGbXui-ngO0Bw" name="tipo_processo" dataType="_rtCqgWgCEfGYLKV1GOYq0A">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_lPqDEWpmEfGbXui-ngO0Bw" name="Melhoria" content="Melhoria"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_rtCqZGgCEfGYLKV1GOYq0A">
         <targetForm xmi:type="expression:Expression" xmi:id="_xIlgcGgXEfGYLKV1GOYq0A" name="anomaliaForm" content="63fa6140-af09-4f49-add6-cdd2f16bc69d" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>

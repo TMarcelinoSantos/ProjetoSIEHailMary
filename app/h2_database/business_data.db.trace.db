@@ -1,0 +1,6 @@
+2026-06-17 19:57:37 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Sim' (ANOMALIA: ""CLIENTECONCORDA"" BOOLEAN)"; SQL statement:
+update ANOMALIA set CLIENTECONCORDA=?, EMAIL=?, IDPROCESSO=?, persistenceVersion=?, QUERCANCELAR=?, TIPODEANOMALIA=?, TIPODEPROCESSO=? where persistenceId=? and persistenceVersion=? [22018-200]
+2026-06-17 20:08:29 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Sim' (ANOMALIA: ""CLIENTECONCORDA"" BOOLEAN)"; SQL statement:
+update ANOMALIA set CLIENTECONCORDA=?, EMAIL=?, IDPROCESSO=?, persistenceVersion=?, QUERCANCELAR=?, TIPODEANOMALIA=?, TIPODEPROCESSO=? where persistenceId=? and persistenceVersion=? [22018-200]
