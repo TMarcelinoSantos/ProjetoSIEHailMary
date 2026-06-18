@@ -14,5 +14,32 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.PedidoTarefa">
+            <fields>
+                <field type="INTEGER" length="255" name="idProcesso" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="tipoDeProcesso" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="descricaoTarefa" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="ordem" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="haDuvidas" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="duvida" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="esclarecimento" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.SumarioIntrevencao" fetchType="EAGER" name="sumariosIntrevencoes" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SumarioIntrevencao">
+            <fields>
+                <field type="LOCALDATE" length="255" name="dataIntrevencao" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="sumario" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="horasInvestidas" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="ultrapassouDataLimite" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
     </businessObjects>
 </businessObjectModel>
