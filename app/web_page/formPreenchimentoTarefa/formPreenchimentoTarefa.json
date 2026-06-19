@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "967ca0ed-16c0-4661-bf19-24d9a9c9e4f0",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781903858063,
+  "lastUpdate" : 1781909420700,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -195,54 +195,23 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 6,
-                        "sm" : 12,
                         "xs" : 12,
+                        "sm" : 12,
+                        "md" : 6,
                         "lg" : 6
                       },
                       "propertyValues" : {
-                        "labelHidden" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : ""
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
+                        "disabled" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Tipo De Processo"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.pedidoTarefaInput.tipoDeProcesso"
                         },
                         "required" : {
                           "type" : "constant",
@@ -252,33 +221,49 @@
                           "type" : "constant",
                           "value" : false
                         },
-                        "minLength" : {
+                        "labelHidden" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : false
                         },
-                        "maxLength" : {
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Tipo de Processo"
+                        },
+                        "labelPosition" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "top"
                         },
-                        "debounce" : {
+                        "labelWidth" : {
                           "type" : "constant",
-                          "value" : 0
+                          "value" : 4
                         },
-                        "min" : {
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Select an option"
+                        },
+                        "availableValues" : {
+                          "type" : "constant",
+                          "value" : [
+                            "Ajuste",
+                            "Melhoria",
+                            "Alteração funcional",
+                            "Projeto"
+                          ]
+                        },
+                        "displayedKey" : {
                           "type" : "constant"
                         },
-                        "max" : {
+                        "returnedKey" : {
                           "type" : "constant"
                         },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.pedidoTarefaInput.tipoDeProcesso"
                         }
                       },
-                      "reference" : "a30caede-d0fa-42d5-814d-5646170b78a0",
+                      "reference" : "b9bc4070-91dd-4a5d-bfec-34f3e93fc609",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
+                      "id" : "pbSelect"
                     }
                   ],
                   [
@@ -433,7 +418,8 @@
                           "type" : "constant"
                         },
                         "value" : {
-                          "type" : "variable"
+                          "type" : "variable",
+                          "value" : "formInput.pedidoTarefaInput.ordem"
                         }
                       },
                       "reference" : "2ef0ffca-5d25-47e0-aa72-91c00bc0ad8a",
