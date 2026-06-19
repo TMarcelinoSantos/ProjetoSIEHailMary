@@ -818,7 +818,7 @@
       <connections xmi:type="process:SequenceFlow" xmi:id="_OE1yMGgJEfGYLKV1GOYq0A" name="não" target="_h5nzAGgDEfGYLKV1GOYq0A" source="_eWSncGgJEfGYLKV1GOYq0A">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_OE1yMWgJEfGYLKV1GOYq0A"/>
         <condition xmi:type="expression:Expression" xmi:id="_OE1yMmgJEfGYLKV1GOYq0A" name="newScript()" content="anomalia.querCancelar  == false" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_jyua8GgJEfGYLKV1GOYq0A" name="anomalia" dataType="_rtCqhGgCEfGYLKV1GOYq0A" className="com.company.model.Anomalia"/>
+          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xsAN4Gv5EfGZMuEzJldSdg" name="anomalia" dataType="_rtCqhGgCEfGYLKV1GOYq0A" className="com.company.model.Anomalia"/>
         </condition>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_P1CkgGgJEfGYLKV1GOYq0A" name="sim" target="_P1BWYGgJEfGYLKV1GOYq0A" source="_eWSncGgJEfGYLKV1GOYq0A">
