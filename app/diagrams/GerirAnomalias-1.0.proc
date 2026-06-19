@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:connectorconfiguration="http://www.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_rtCqUGgCEfGYLKV1GOYq0A" name="GerirAnomalias" bonitaModelVersion="9">
     <elements xmi:type="process:Pool" xmi:id="_rtCqUWgCEfGYLKV1GOYq0A" name="Gerir anomalias">
-      <elements xmi:type="process:Lane" xmi:id="_rtCqUmgCEfGYLKV1GOYq0A" name="Employee lane" actor="_rtCqa2gCEfGYLKV1GOYq0A">
+      <elements xmi:type="process:Lane" xmi:id="_rtCqUmgCEfGYLKV1GOYq0A" name="Gestor de Serviço" actor="_vfQa8GwkEfGlla7S5XjRVQ">
         <elements xmi:type="process:StartEvent" xmi:id="_rtCqU2gCEfGYLKV1GOYq0A" name="Notificação de anomalia recebida" outgoing="_rtCqaGgCEfGYLKV1GOYq0A">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_rtCqVGgCEfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_rtCqVWgCEfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
@@ -392,7 +392,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_rtCqXmgCEfGYLKV1GOYq0A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_rtCqX2gCEfGYLKV1GOYq0A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_P1MyAGgIEfGYLKV1GOYq0A" name="Receber resposta" outgoing="_MIQJtGgJEfGYLKV1GOYq0A" incoming="_KjkD0GgJEfGYLKV1GOYq0A" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_P1MyAGgIEfGYLKV1GOYq0A" name="Receber resposta" outgoing="_MIQJtGgJEfGYLKV1GOYq0A" incoming="_KjkD0GgJEfGYLKV1GOYq0A" actor="_zw7EcGwkEfGlla7S5XjRVQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_JypZsWgIEfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_JypZsGgIEfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_JypZsmgIEfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
@@ -608,7 +608,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_bGstuGgDEfGYLKV1GOYq0A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_bGstt2gDEfGYLKV1GOYq0A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_2vJIAGgREfGYLKV1GOYq0A" name="Receber confirmação" outgoing="_6Uxx82gREfGYLKV1GOYq0A" incoming="_xnWHw2gREfGYLKV1GOYq0A" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_2vJIAGgREfGYLKV1GOYq0A" name="Receber confirmação" outgoing="_6Uxx82gREfGYLKV1GOYq0A" incoming="_xnWHw2gREfGYLKV1GOYq0A" actor="_zw7EcGwkEfGlla7S5XjRVQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_xnVgsmgREfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_xnVgsWgREfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_xnVgs2gREfGYLKV1GOYq0A" name="" content="" returnTypeFixed="true"/>
@@ -863,7 +863,9 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_x2bQIGgSEfGYLKV1GOYq0A"/>
         <condition xmi:type="expression:Expression" xmi:id="_x2bQIWgSEfGYLKV1GOYq0A" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_rtCqa2gCEfGYLKV1GOYq0A" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_rtCqa2gCEfGYLKV1GOYq0A" name="Programador actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_vfQa8GwkEfGlla7S5XjRVQ" name="Gestor actor"/>
+      <actors xmi:type="process:Actor" xmi:id="_zw7EcGwkEfGlla7S5XjRVQ" name="Cliente actor"/>
       <contract xmi:type="process:Contract" xmi:id="_rtCqbGgCEfGYLKV1GOYq0A">
         <inputs xmi:type="process:ContractInput" xmi:id="_qR2WUGgQEfGYLKV1GOYq0A" name="anomaliaInput" type="COMPLEX" dataReference="anomalia">
           <inputs xmi:type="process:ContractInput" xmi:id="_qR2WUWgQEfGYLKV1GOYq0A" name="email"/>
