@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.1">
+    <application homePage="programador" layout="custompage_layoutBonita" theme="custompage_themeBonita" token="tarefas" version="1.0" profile="User" state="ACTIVATED">
+        <displayName>Lista de Tarefas</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_ListaDeTarefas" token="programador"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="programador">
+                <displayName>Dashboard Programador</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+    <application homePage="gestor" layout="custompage_layoutBonita" theme="custompage_themeBonita" token="anomalias" version="1.0" profile="User" state="ACTIVATED">
+        <displayName>Lista de Anomalias</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_ListaDeAnomalias" token="gestor"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="gestor">
+                <displayName>Dashboard Gestor</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
