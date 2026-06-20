@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "967ca0ed-16c0-4661-bf19-24d9a9c9e4f0",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781909420700,
+  "lastUpdate" : 1781969916655,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -239,7 +239,7 @@
                         },
                         "placeholder" : {
                           "type" : "interpolation",
-                          "value" : "Select an option"
+                          "value" : "Selecione uma opção"
                         },
                         "availableValues" : {
                           "type" : "constant",
