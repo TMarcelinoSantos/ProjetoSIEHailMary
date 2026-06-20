@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "c88874b1-d7f9-4db4-b899-301a5b312e07",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1781914494315,
+  "lastUpdate" : 1781914636050,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -142,6 +142,84 @@
                               "lg" : 6
                             },
                             "propertyValues" : {
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "dateFormat" : {
+                                "type" : "constant",
+                                "value" : "MM/dd/yyyy"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "labelWidth" : {
+                                "type" : "constant",
+                                "value" : 1
+                              },
+                              "readOnly" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Data Intrevencao"
+                              },
+                              "type" : {
+                                "type" : "constant"
+                              },
+                              "required" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "todayLabel" : {
+                                "type" : "constant",
+                                "value" : "Today"
+                              },
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "showToday" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "labelPosition" : {
+                                "type" : "constant",
+                                "value" : "top"
+                              },
+                              "placeholder" : {
+                                "type" : "constant",
+                                "value" : "Enter a date (mm/dd/yyyy)"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              },
+                              "value" : {
+                                "type" : "variable",
+                                "value" : "pedidoTarefa.sumariosIntrevencoes.dataIntrevencao"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              }
+                            },
+                            "reference" : "9e6ee778-9484-4ebb-811b-26159e29c360",
+                            "hasValidationError" : false,
+                            "id" : "pbDatePicker",
+                            "description" : ""
+                          },
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 6,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 6
+                            },
+                            "propertyValues" : {
                               "labelHidden" : {
                                 "type" : "constant",
                                 "value" : false
@@ -219,84 +297,6 @@
                             "reference" : "93ce1c92-ffae-456d-b93f-7c7319cfe4d2",
                             "hasValidationError" : false,
                             "id" : "pbInput",
-                            "description" : ""
-                          },
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 6,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 6
-                            },
-                            "propertyValues" : {
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "dateFormat" : {
-                                "type" : "constant",
-                                "value" : "MM/dd/yyyy"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 1
-                              },
-                              "readOnly" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Data Intrevencao"
-                              },
-                              "type" : {
-                                "type" : "constant"
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "todayLabel" : {
-                                "type" : "constant",
-                                "value" : "Today"
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "showToday" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "placeholder" : {
-                                "type" : "constant",
-                                "value" : "Enter a date (mm/dd/yyyy)"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "pedidoTarefa.sumariosIntrevencoes.dataIntrevencao"
-                              },
-                              "allowHTML" : {
-                                "type" : "constant",
-                                "value" : false
-                              }
-                            },
-                            "reference" : "9e6ee778-9484-4ebb-811b-26159e29c360",
-                            "hasValidationError" : false,
-                            "id" : "pbDatePicker",
                             "description" : ""
                           }
                         ],
